@@ -6,7 +6,7 @@ export const contacts:contact[] = [
     city: "Chennai",
     state: "Tamil Nadu",
     phone: "044-2450-9530",
-    image: "chennai.jpg",
+    image: "chennai.jpeg",
     },
     {
     name: "Mumbai Corporate Office",
@@ -14,7 +14,7 @@ export const contacts:contact[] = [
     city: "Mumbai",
     state: "Maharashtra",
     phone: "022-6645-1234",
-    image: "mumbai.jpg",
+    image: "mumbai.jpeg",
     },
     {
         name:"Hyderabad Development Center",
@@ -22,6 +22,6 @@ export const contacts:contact[] = [
         city:"Hyderabad",
         state:"Telangana",
         phone:"040-6789-3456",
-        image:"hyderabad.jpg",
+        image:"hyderabad.jpeg",
     }
 ]

@@ -1,0 +1,40 @@
+.enquiry-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enquiry-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form select,
+  .enquiry-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .enquiry-form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enquiry-form button:hover {
+    background-color: #0056b3;
+  }
+  

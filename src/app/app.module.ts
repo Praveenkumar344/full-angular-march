@@ -10,7 +10,10 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
 import { ContactItemComponent } from './pages/contacts/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 import { ServiceCardComponent } from './pages/home/service-card/service-card.component';
+import { ProjectItemComponent } from './pages/projects/project-item/project-item.component';
+import { EnquiryFormComponent } from './common/enquiry-form/enquiry-form.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { ServiceCardComponent } from './pages/home/service-card/service-card.com
     ContactsComponent,
     MenuBarComponent,
     ContactItemComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    ProjectItemComponent,
+    EnquiryFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

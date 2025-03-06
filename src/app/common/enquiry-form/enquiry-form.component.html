@@ -1,0 +1,23 @@
+<div class="enquiry-form">
+    <h3>Enquiry Form</h3>
+    <form (ngSubmit)="submitForm()">
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" [(ngModel)]="enquiry.name" name="name" required />
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="enquiry.email" name="email" required />
+  
+      <label for="serviceType">Service Type:</label>
+      <select id="serviceType" [(ngModel)]="enquiry.serviceType" name="serviceType">
+        <option *ngFor="let service of serviceOptions" [value]="service">{{ service }}</option>
+      </select>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" [(ngModel)]="enquiry.message" name="message"></textarea>
+  
+      <button type="submit">Submit</button>
+  
+    </form>
+  </div>
+  
