@@ -11,6 +11,8 @@ import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
 import { ContactItemComponent } from './pages/contacts/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceCardComponent } from './pages/home/service-card/service-card.component';
+import { EnqiryFormComponent } from './pages/home/enqiry-form/enqiry-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { ServiceCardComponent } from './pages/home/service-card/service-card.com
     ContactsComponent,
     MenuBarComponent,
     ContactItemComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    EnqiryFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

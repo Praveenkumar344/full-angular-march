@@ -1,5 +1,5 @@
 {
-"services": [
+  "services": [
     {
       "id": 1,
       "title": "Branding and Communication",
@@ -35,6 +35,15 @@
       "title": "Market Analysis",
       "description": "UP starts all major marketing, branding, advertising and creative service projects with a thorough briefing process and market research. This phase might include customer research or a START ME UP workshop.  UP LAB also offers in-depth analysis and market insights to help you understand your customers. ",
       "image": "market.jpg"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "ef47",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Web Development",
+      "message": "We need an ecommerce site to be done"
     }
   ]
 }
