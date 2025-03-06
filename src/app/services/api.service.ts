@@ -12,7 +12,13 @@ export class ApiService {
   getServices():Observable<any>{
     return this.http.get('http://localhost:4500/services');
   }
+<<<<<<< HEAD
   getProjects(): Observable<any> { 
     return this.http.get('http://localhost:4500/projects');
+=======
+
+  addEnquiry(data:any):Observable<any>{
+    return this.http.post('http://localhost:4500/enquiries', data);
+>>>>>>> e2cd65ebdec06525441aab14e9745ae624783f42
   }
 }

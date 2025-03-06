@@ -12,8 +12,13 @@ import { ContactItemComponent } from './pages/contacts/contact-item/contact-item
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ServiceCardComponent } from './pages/home/service-card/service-card.component';
+<<<<<<< HEAD
 import { ProjectItemComponent } from './pages/projects/project-item/project-item.component';
 import { EnquiryFormComponent } from './common/enquiry-form/enquiry-form.component';
+=======
+import { EnqiryFormComponent } from './pages/home/enqiry-form/enqiry-form.component';
+import { FormsModule } from '@angular/forms';
+>>>>>>> e2cd65ebdec06525441aab14e9745ae624783f42
 
 @NgModule({
   declarations: [
@@ -25,14 +30,22 @@ import { EnquiryFormComponent } from './common/enquiry-form/enquiry-form.compone
     MenuBarComponent,
     ContactItemComponent,
     ServiceCardComponent,
+<<<<<<< HEAD
     ProjectItemComponent,
     EnquiryFormComponent
+=======
+    EnqiryFormComponent
+>>>>>>> e2cd65ebdec06525441aab14e9745ae624783f42
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+<<<<<<< HEAD
     FormsModule 
+=======
+    FormsModule
+>>>>>>> e2cd65ebdec06525441aab14e9745ae624783f42
   ],
   providers: [],
   bootstrap: [AppComponent]

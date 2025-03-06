@@ -37,6 +37,7 @@
       "image": "market.jpg"
     }
   ],
+<<<<<<< HEAD
   "projects": [
     {
       "id": "1",
@@ -137,6 +138,15 @@
       "endDate": "2023-12-20",
       "teamSize": 5,
       "image": "tourism.jpg"
+=======
+  "enquiries": [
+    {
+      "id": "ef47",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Web Development",
+      "message": "We need an ecommerce site to be done"
+>>>>>>> e2cd65ebdec06525441aab14e9745ae624783f42
     }
   ]
 }
